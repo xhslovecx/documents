@@ -1,0 +1,16 @@
+﻿1、首先进入mysql的bin目录
+	cd D:\Program Files\mysql-5.7\mysql-5.7.19-winx64\bin
+2、启动和停止mysql服务
+	net start mysql
+	net stop mysql
+3、登录mysql
+	语法如下： mysql -u用户名-p用户密码
+	键入命令mysql -uroot -p
+4、打开Navicat for MySql
+	点击链接，输入用户名和密码即可登录到服务器
+5、默认数据库的作用
+	http://www.cnblogs.com/coderchuanyu/p/3908426.html
+6、mysql:启动和终止
+	http://www.cnblogs.com/snake-hand/p/3184954.html
+7、安装MySQL图形化管理工具（非常好）
+	http://www.cnblogs.com/sshoub/p/4321640.html
