@@ -1,0 +1,28 @@
+﻿文档：
+1、新建仓库
+	File-->new repository 输入名字仓库的名字First，Local path里面填写本地路径-->点击Create repository
+	这样，一个仓库就建立完成
+	在本地路径里面找到该仓库，建立自己的代码文件
+2、删除一个仓库
+	打开网页版的github，找到要删除的repository,打开
+	找到settings，拉止页面最后一页，点击Delete this repository
+	(通常情况下会让输入repository的名字，确认之后再输入密码确认即可)
+3、编写一个文件
+	在本地打开代码文件，修改，保存。
+	打开github桌面版，Changes里面会有这次修改的代码，并用蓝色标注，
+	在左下角Summary(摘要)里面填写此次修改的简述，必填项，以及Description，描述，选填项
+	点击Commit to master，即可提交。
+	此时转到History里面可以看到此次修改的详细内容，点击右上角的Push origin,即可提交至网页版github
+4、创建一个分支
+	点击菜单栏Branch-->new branch-->输入名字并点击Create branch即可创建一个分支
+	在该分支下面对源代码文件的修改将不会存放在主分支里面，可以任意修改，待修改完成可以将该分支合并到
+	主分支里面。
+	合并方法为：
+		1）先将current branch切换至master主分支里面
+		2）点击菜单栏Branch，merge into current branch,在弹出的对话框里面选择要合并的分支，并点击Merge into master
+		3）此时在主master的history里面可以看到分支里面修改的内容，此时可以将其他分支删除。
+	分支删除的方法：
+		1）将current branch切换至要删除的分支
+		2）点击菜单栏的Branch里面的Delete，即可删除
+		注意：主分支往往是默认存在不能够删除的
+	
