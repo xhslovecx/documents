@@ -14,3 +14,5 @@
 	http://www.cnblogs.com/snake-hand/p/3184954.html
 7、安装MySQL图形化管理工具（非常好）
 	http://www.cnblogs.com/sshoub/p/4321640.html
+8、更改表使其适应中文字符的命令：
+	alter table 表名字 CONVERT TO CHARACTER SET utf8;
